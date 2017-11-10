@@ -1,0 +1,14 @@
+Composite pattern 組合模式
+將單元物件 與 複合物見 是為同一件事情，降低程式複雜性。
+Composite(AbstractFile)物件包含一個list是他父類別的Component(Folder)，這樣的結構可形成記錄群組的結構
+而且群組(Folder)還可以裝群組(Folder)
+
+結構：
+父類別Component(AbstractFile)
+子類別Leaf(File)和 Composite(Folder)
+Composite(Folder)裡有Component(AbstractFile)的List陣列
+
+
+實作：
+不用區分單元物件 或 複合物見 的差異
+用於群組化
